@@ -12,7 +12,7 @@ amqp.connect('amqp://localhost', (err, connection) => {
         }
 
         let queueName = "Spider-Man";
-        let message = "Howz all ?";
+        let message = "Hello Rabbit:-)";
         channel.assertQueue(queueName, {
 
             durable: false
